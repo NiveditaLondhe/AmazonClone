@@ -1,0 +1,642 @@
+/* to all */
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    /* padding: 0px; */
+    font-size: 16px;
+}
+
+/* to navbar */
+.navBar{
+    height: 60px;
+    color: white;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* adding white border while hovering */
+.borders{
+    border: 1.5px solid transparent;
+}
+
+.borders:hover{
+    border: 1.5px solid white;
+}
+
+/* adding amazon logo 1st block in navBar*/
+.navLogo{
+    height: 50px;
+    width: 110px;
+    align-items: center;
+    right: 20px;
+}
+
+.logo{
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    width: 110px;
+    background-size: cover;
+}
+
+/* location india 2cd block in navBar */
+.location{
+    height: 50px;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.location2{
+    height: 31px;
+    margin-top: 5px;
+}
+
+.locationFirst{
+    font-size: 0.75em;
+    color: #cccccc;
+    margin-left: 14px;
+}
+
+.locationLower{
+    display: flex;
+}
+
+.locationSecond{
+    font-size: 0.875em;
+    margin-left: 3px;
+}
+
+/* search bar 3rd block in navBar */
+.searchBar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f08804;
+    width: 890px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.searchBar:hover{
+    border: 3px solid #f08804;
+}
+
+.lenseIcon{
+    width: 50px;
+    height: 41px;
+}
+
+.BarSelect{
+    background-color: #e6e6e6;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.barInput{
+    width: 100%;
+    font-size: 0.875em;
+    border: none;
+}
+
+.lenseIcon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    color: #0f1111;
+}
+
+/* contry bar 4th block in navBar */
+.contry{
+    width: 74px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contry2{
+    width: 55px;
+    height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contryText{
+    font-size: 0.875em;
+    border: none;
+    color: white;
+    background-color: #0f1111;
+}
+
+/* contry bar 5th & 6th block in navBar */
+.signIn{
+    
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.th5Span{
+    font-size: 0.75em;
+}
+
+.signInText2{
+    font-size: 0.875em;
+    font-weight: 600;
+}
+
+/* contry bar 7th block in navBar */
+.navCart i {
+    font-size: 30px;
+    align-self: center;
+}
+
+.navCart{
+    font-size: 0.875em;
+    font-weight: 700;
+}
+
+/* nav Bar Two */
+/*  */
+.navTwo{
+    background-color: #232f3e;
+    color: #ffffff;
+    font-size: 0.875em;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.navTwoAll{
+    width: 60px;
+    text-align: center;
+    font-weight: 700;
+    margin-left: 19px;
+}
+
+#navTwo2cdDiv{
+    width: 70%;
+    display: flex;
+}
+
+.anc{
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* content Section */
+/*  */
+.content{
+    background-image: url(pikMain.jpg);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: cadetblue;
+    z-index: -1;
+    
+}
+
+.ConBoxOne{
+    background-color: #ffffff;
+    color: #0f1111;
+    width: 92%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 310px;
+    padding: 10px 14px;
+}
+
+.ConBoxOne pr{
+    font-size: 0.875em;
+    margin-right: 5px;
+}
+
+.ConBoxOne a{
+    color: #007185;
+    font-size: 0.875em;
+}
+
+/* shopOne All Shopping Boxes "one image Box*/
+.shop{
+    background-color:rgb(206, 234, 234);
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -285px;
+    flex-wrap: wrap;
+}
+
+.box{
+    background-color: #ffffff;
+    height: 420px;
+    width: 23.4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.box h2{
+    font-size: 1.25em;
+    width: 89%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.box p{
+    font-size: 0.82em;
+    color: #007185;
+    position: relative;
+    width: 89%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* shopOne All Shopping Boxes "One image Box*/
+.oneImageBox{
+    background-size: cover;
+    height: 304px;
+    width: 89%;
+}
+
+/* shopOne All Shopping Boxes "four image Box*/
+.fourImageBox{
+    display: flex;
+    /* flex-wrap: wrap; */
+    height: 304px;
+    width: 89%;
+    display: flex;
+    flex-direction: row;
+    
+    /* flex-wrap: wrap; */
+}
+
+.fourDiv{
+    width: 130px;
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+}
+
+.FourImageUpperBox pr{
+    font-size: 0.75em;
+    width: 120px;
+    /* margin-left: 29px; */
+}
+
+.DiamensionFour{
+    width: 146px;
+    height: 115px;
+    background-size:cover;
+}
+
+/* Indivisual four image Box */
+.FourImageLowerBox pr{
+    font-size: 0.75em;
+    width: 120px;
+    margin-left: 29px;
+}
+
+/* <!-- shop Box One --> */
+.PicOne{
+    background-image: url(pic1.jpg);
+    background-position: center;
+}
+.PicTwo{
+    background-image: url(pic2.jpg);
+    background-position: center;
+}
+.PicThree{
+    background-image: url(pic3.jpg);
+    margin-left: 30px;
+    background-position: center;
+}
+.PicFour{
+    background-image: url(pic4.jpg);
+    margin-left: 30px;
+    background-position: center;
+}
+
+/* <!-- shop Box Two --> */
+
+.PicFive{
+    background-image: url(pic5.jpg);
+    background-position: center;
+}
+.PicSix{
+    background-image: url(pic6.jpg);
+    background-position: center;
+}
+.PicSeven{
+    background-image: url(pic7.jpg);
+    margin-left: 30px;
+    background-position: center;
+}
+.PicEight{
+    background-image: url(pic8.jpg);
+    margin-left: 30px;
+    margin-top: 18px;
+    background-position: center;
+}
+
+/* <!-- shop Box Three --> */
+.PicNine{
+    background-image: url(pic9.jpg);
+    background-position: center;
+}
+.PicTen{
+    background-image: url(pic10.jpg);
+    background-position: center;
+}
+.PicEleven{
+    background-image: url(pic11.jpg);
+    margin-left: 30px;
+    background-position: center;
+}
+.PicTwelve{
+    background-image: url(pic12.jpg);
+    margin-left: 30px;
+    background-position: center;
+}
+
+/* <!-- shop Box Four --> */
+.oneImageOne{
+    background-image: url(pic13.jpg);
+    background-position: center;
+}
+
+/* <!-- shop Box Five --> */
+.PicForteen{
+    background-image: url(pic14.jpg);
+    background-position: center;
+}
+.PicFifteen{
+    background-image: url(pic15.jpg);
+    background-position: center;
+}
+.PicSixteen{
+    background-image: url(pic16.jpg);
+    margin-left: 30px;
+    background-position: center;
+}
+.PicSeventeen{
+    background-image: url(pic17.jpg);
+    margin-left: 30px;
+    background-position: center;
+}
+
+/* <!-- shop Box Six --> */
+.oneImageTwo{
+    background-image: url(pic18.jpg);
+    background-position: center;
+}
+
+/* <!-- shop Box Seven --> */
+.oneImageThree{
+    background-image: url(pic19.jpg);
+    background-position: center;
+}
+
+/* <!-- shop Box Eight --> */
+.PicTwenty{
+    background-image: url(pic20.jpg);
+    background-position: center;
+}
+.PicTwenteeone{
+    background-image: url(pic21.jpg);
+    background-position: center;
+}
+.PicTwenteetwo{
+    background-image: url(pic22.jpg);
+    margin-left: 30px;
+    background-position: center;
+}
+.PicTwenteethree{
+    background-image: url(pic23.jpg);
+    margin-left: 30px;
+    background-position: center;
+}
+
+/* <!-- shop Box Nine --> */
+.PicTwenteefour{
+    background-image: url(pic24.jpg);
+    background-position: center;
+}
+.PicTwenteefive{
+    background-image: url(pic25.jpg);
+    background-position: center;
+}
+.PicTwenteesix{
+    background-image: url(pic26.jpg);
+    margin-left: 30px;
+    background-position: center;
+}
+.PicTwenteeseven{
+    background-image: url(pic27.jpg);
+    margin-left: 30px;
+    background-position: center;
+}
+
+/* <!-- shop Box Ten --> */
+.PicTwenteeeight{
+    background-image: url(pic28.jpg);
+    background-position: center;
+}
+.PicTwenteenine{
+    background-image: url(pic29.jpg);
+    background-position: center;
+}
+.PicThirty{
+    background-image: url(pic30.jpg);
+    margin-left: 30px;
+    background-position: center;
+}
+.PicThirteeone{
+    background-image: url(pic31.jpg);
+    margin-left: 30px;
+    background-position: center;
+}
+
+/* <!-- shop Box Eleven --> */
+.PicThirteetwo{
+    background-image: url(pic32.jpg);
+    background-position: center;
+}
+.PicThirteethree{
+    background-image: url(pic33.jpg);
+    background-position: center;
+}
+.PicThirteefour{
+    background-image: url(pic34.jpg);
+    margin-left: 30px;
+    background-position: center;
+}
+.PicThirteefive{
+    background-image: url(pic35.jpg);
+    margin-left: 30px;
+    background-position: center;
+}
+
+/* <!-- shop Box Twelve --> */
+.PicThirteesix{
+    background-image: url(pic36.jpg);
+    background-position: center;
+}
+.PicThirteeseven{
+    background-image: url(pic37.jpg);
+    background-position: center;
+}
+.PicThirteeeight{
+    background-image: url(pic38.jpg);
+    margin-left: 30px;
+    background-position: center;
+}
+.PicThirteenine{
+    background-image: url(pic39.jpg);
+    margin-left: 30px;
+    background-position: center;
+}
+
+/* sign foot bar */
+/*  */
+.singFootBar{
+    height: 190px;
+    position: relative;
+    top: -285px;
+}
+
+.signFootBarFill{
+    height: 125px;
+    border: 1px solid rgb(195, 195, 195);
+    border-radius: 3px;
+    position: relative;
+    top: 40px;
+    margin-bottom: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signFootBarFill p{
+    font-size: 0.825em;
+    text-align: center;
+}
+
+.signFootBarFill pr{
+    font-size: 0.6875em;
+    /* margin-left: 50px; */
+}
+
+.signFootBarFill a{
+    font-size: 1em;
+    color: #007185;
+}
+
+.signFootBarFill button{
+    font-size: 0.75em;
+    height: 28px;
+    width: 230px;
+    font-weight: 700;
+    border-radius: 3px;
+    border: 1px solid #f08804;
+    background-color: rgba(254, 220, 82, 0.9);
+}
+
+/* <!-- Fotter -->
+<!-- main Footer --> */
+
+/* Footer Box One */
+.Footer{
+    height: 170px;
+    background-color: #ff0000;
+    position: relative;
+    top: -285px;
+}
+
+.footerBoxOne{
+    height: 50px;
+    background-color: #45566c;
+    text-align: center;
+}
+
+.footerBoxOne p{
+    color: #ffffff;
+    font-size: 0.85em;
+    padding-top: 17px;
+}
+
+/* Footer Box Two */
+.footerBoxTwo{
+    height: 350px;
+    background-color: #222f3d;
+}
+
+.footerBoxTwo hr{
+    height: 0.1px; /* Adjust the thickness here */
+  border: none; /* Remove the default border */
+  background-color: #dddddd; /* Set the color of the line */
+  margin: 1rem 0; /* Optional: Add some spacing around the hr */
+}
+
+.footerTwoUppert{
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-left: 12%;
+
+}
+
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 25px;
+    
+}
+
+.list p{
+    color: #ffffff;
+    font-size: 1em;
+    margin-bottom: 16px;
+}
+.list a{
+    color: #dddddd;
+    font-size: 0.85em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#endit{
+    width: 36%;
+    color: #dddddd;
+    font-size: 12px;
+    /* margin-left: 32%;
+    margin-top: 60px; */
+}
+
+
+/* Footer Box Three  */
+ .footerBoxThree{
+    height: 100px;
+    background-color: #0a1520;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
