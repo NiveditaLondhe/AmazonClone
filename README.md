@@ -47,7 +47,3 @@ This project is static and can be used as a reference for understanding HTML and
 - **HTML**
 - **CSS**
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
