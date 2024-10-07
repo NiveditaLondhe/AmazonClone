@@ -34,7 +34,7 @@ Here are some screenshots of the Amazon Clone project:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/NiveditaLondhe/AmazonClone
+    git clone https://github.com/NiveditaLondhe/AmazonClone.git
     ```
 2. Open `index.html` in your web browser to view the project.
 
